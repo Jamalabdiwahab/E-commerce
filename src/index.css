@@ -1,0 +1,137 @@
+.hero{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1580974928064-f0aeef70895a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWxlY3Ryb25pY3MlMjBzdG9yZXxlbnwwfHwwfHx8MA%3D%3D');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.hero-text{
+  padding-inline: 10%;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-text h5{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.hero-text h1{
+  color: #fff;
+  font-size: 6rem;
+  line-height: 1.1;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 6px 0 10px;
+}
+.hero-text p{
+  color: #a7b2d1;
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+}
+
+#nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+
+}
+#products{
+  padding-inline: 5%;
+  padding-block: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+  gap: 2rem;
+ 
+
+}
+.col{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  transition: .3s;
+
+}
+.col:hover{
+  transform: scale(1.1);
+}
+
+.container h1{
+  text-align: center;
+  padding-top: 10%;
+}
+.container span{
+  color: #EE1C47;
+}
+#cart{
+  padding-block: 3%;
+}
+
+
+
+@media (max-width:768px) {
+  .hero-text{
+    padding-inline: 10%;
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-text h5{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .hero-text h1{
+    color: #fff;
+    font-size: 4rem;
+    line-height: 1.1;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 6px 0 10px;
+  }
+  .hero-text p{
+    color: #a7b2d1;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+  }
+ 
+  
+}
+@media (max-width:500px) {
+  .hero-text{
+    padding-inline: 10%;
+    padding-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-text h5{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .hero-text h1{
+    color: #fff;
+    font-size: 3.3rem;
+    line-height: 1.1;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 6px 0 10px;
+  }
+  .hero-text p{
+    color: #a7b2d1;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+  }
+
+  
+}
