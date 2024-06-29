@@ -70,6 +70,12 @@
 #cart{
   padding-block: 3%;
 }
+.cards{
+  padding: 50px 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,auto));
+  gap: 2rem;
+}
 
 
 

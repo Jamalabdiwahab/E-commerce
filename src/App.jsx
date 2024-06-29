@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './Components/Navbar'
+// import Product from './Components/Product'
 import Products from './Pages/Products'
 import Footer from './Components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'

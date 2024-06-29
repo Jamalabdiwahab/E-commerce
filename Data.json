@@ -5,7 +5,7 @@
         "title": "iPhone 9",
         "description": "An apple mobile which is nothing like apple",
         "price": 549,
-        "thumbnail": "/src/assets/images/iphone 9.jpg",
+        "thumbnail": "src/assets/images/iphone 9.jpg",
         "quantity" : 1
       },
       {
@@ -13,7 +13,7 @@
         "title": "iPhone X",
         "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
         "price": 899,
-        "thumbnail": "/src/assets/images/iphone x.jpg",
+        "thumbnail": "src/assets/images/iphone x.jpg",
         "quantity" : 1
       },
       {
@@ -22,7 +22,7 @@
         "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
         "price": 1249,
         "category": "smartphones",
-        "thumbnail": "/src/assets/images/Samsung Universe 9.webp",
+        "thumbnail": "src/assets/images/Samsung Universe 9.webp",
         "quantity" : 1
       },
       {
@@ -30,7 +30,7 @@
         "title": "OPPOF19",
         "description": "OPPO F19 is officially announced on April 2021.",
         "price": 280,
-        "thumbnail": "/src/assets/images/OPPOF19.jpg",
+        "thumbnail": "src/assets/images/OPPOF19.jpg",
         "quantity" : 1
       },
       {
@@ -38,7 +38,7 @@
         "title": "Huawei P30",
         "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
         "price": 499,
-        "thumbnail": "/src/assets/images/Huawei P30.jpg",
+        "thumbnail": "src/assets/images/Huawei P30.jpg",
         "quantity" : 1
       },
       {
@@ -46,7 +46,7 @@
         "title": "MacBook Pro",
         "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
         "price": 1749,
-        "thumbnail": "/src/assets/images/MacBook Pro.jpg",
+        "thumbnail": "src/assets/images/MacBook Pro.jpg",
         "quantity" : 1
       },
       {
@@ -54,7 +54,7 @@
         "title": "Samsung Galaxy Book",
         "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
         "price": 1499,
-        "thumbnail": "/src/assets/images/Samsung Galaxy Book.jpg",
+        "thumbnail": "src/assets/images/Samsung Galaxy Book.jpg",
         "quantity" : 1
       }
     ]
